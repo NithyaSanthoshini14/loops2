@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num=3
+        for(let i=0;i<=num;i++){
+            for(var j=0;j<=10;j++){
+                console.log(i,"X",j ,"=",i*j)
+            }
+        }
+        // //sum of numbers
+        let i=0
+        sum=0
+        while(i<=10){
+        sum+=i
+        i++
+        }
+        console.log(`the sum of numbers is ${sum}`)
+        //do while
+        i=-1
+        do{
+            console.log(i)
+            i--
+        }while(i>=-10)
+        //printing -10 to -1
+        i=-10
+        do{
+            console.log(i)
+            i++
+        }while(i<=-1)
+        //printing star pattern
+        let n=5
+        for(let i=0;i<=n;i++){
+            let str="*";
+            console.log(str.repeat(i));
+        }
+        //printing upperright triangle
+        let a=5
+        for(i=0;i<=a;i++){
+            let str1="*";
+            let space=" ";
+            console.log(space.repeat(n-i)+str1.repeat(i))
+        }
+        
+        
+       
+
+    </script>
+    
+</body>
+</html>
